@@ -1,5 +1,6 @@
 package com.example;
 
+
 /**
  * This is a class.
  */
@@ -19,7 +20,7 @@ public class Greeter {
    * @return String
    * Hello yo
    */
-  public final String greet( final String someone) {
+  public final String greet(final String someone) {
     return String.format("Hello, %s!", someone);
   }
 }
